@@ -1,0 +1,50 @@
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  background-color: #000;
+}
+
+.navbar span a {
+  margin-right: 5px;
+}
+
+.navbar span a:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.space-btwn {
+  justify-content: space-between;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+.color-w {
+  color: #fff;
+}
+
+.color-gray {
+  color: gray;
+}
+
+.pad-10 {
+  padding: 10px;
+}
+
+.no-decor {
+  text-decoration: none;
+}
