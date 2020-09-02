@@ -6,6 +6,28 @@ body {
   /* height: 150vh; */
 }
 
+.top-logo {
+  display: none;
+  background: rgb(211, 9, 137);
+  background: linear-gradient(
+    130deg,
+    rgba(211, 9, 137, 1) 0%,
+    rgba(255, 68, 34, 1) 77%
+  );
+  width: 10%;
+}
+
+.top-logo img {
+  align-self: center;
+  max-width: 70%;
+  height: auto;
+  margin: auto;
+}
+
+.top-nav {
+  width: 90%;
+}
+
 .navbar {
   background-color: #000;
 }
@@ -46,8 +68,13 @@ header {
   color: black;
 }
 
-.fa-search:hover {
+.fa-search:hover,
+.fa-bars:hover {
   cursor: pointer;
+}
+
+.fa-bars {
+  color: #f42;
 }
 
 .d-flex {
@@ -91,7 +118,15 @@ header {
 }
 
 .dis_non {
-  display: block;
+  display: flex;
+}
+
+/* .dis_flex {
+  display: none;
+} */
+
+.test {
+  margin: auto 0;
 }
 
 .align_cent {
@@ -204,14 +239,17 @@ header {
   
 } */
 
-/* @media only screen and (min-width: 375px) {
-  .dis_non {
-    display: block;
-  }
-} */
-
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 769px) {
   .dis_non {
     display: none;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .top-logo {
+    display: none;
+  }
+  .top-nav {
+    width: 100%;
   }
 }
