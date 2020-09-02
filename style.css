@@ -3,17 +3,21 @@ body {
   padding: 0;
   margin: 0;
   background-color: #fcfcfc;
-  height: 150vh;
+  /* height: 150vh; */
 }
 
 .navbar {
   background-color: #000;
 }
 
-.head {
+header {
   position: sticky;
+  top: 0;
+  background-color: #fcfcfc;
+}
+
+.head {
   height: 7vh;
-  width: 100%;
   padding-left: 13px;
 }
 
@@ -31,7 +35,8 @@ body {
   margin-right: 10px;
 }
 
-.navbar span a:hover {
+.navbar span a:hover,
+.author:hover {
   cursor: pointer;
   color: #fff;
 }
@@ -92,4 +97,81 @@ body {
 .fa-search {
   padding: 0px 15px;
   font-size: 20px;
+}
+
+/* Main section */
+
+.main-pic-container {
+  margin: 5px;
+  /* height: 500px; */
+  height: 75vh;
+  max-height: 560px;
+}
+
+.tnw {
+  width: 64%;
+  float: left;
+  height: 100%;
+  background: url("images/Baby-Yoda.jpg") center no-repeat;
+  background-size: cover;
+  margin: 0.2%;
+}
+
+.flagship {
+  float: left;
+  width: 35.5%;
+  height: 50%;
+  background-image: url("images/facebook-img.png");
+  background-size: cover;
+  margin-top: 0.2%;
+}
+
+.facebook {
+  width: 35.6%;
+  height: 49.5%;
+  float: right;
+  background-image: url("images/facebook-img.png");
+  background-size: cover;
+  margin-top: 0.2%;
+  background-blend-mode: difference;
+}
+
+.logo {
+  color: #fff;
+}
+
+.marg-20 {
+  margin: 20px;
+}
+
+.distract {
+  margin-top: 15%;
+}
+
+.gradient-bg {
+  height: 100%;
+  background: rgb(254, 66, 14);
+  background: linear-gradient(
+    -185deg,
+    rgba(254, 66, 14, 0.9293912394662921) 0%,
+    rgba(29, 26, 26, 0.6681552844101124) 80%
+  );
+}
+
+.pad-20 {
+  padding: 20px;
+}
+
+.f-direction-col {
+  flex-direction: column;
+}
+
+.fb-bg {
+  height: 100%;
+  background: rgb(33, 33, 33);
+  background: linear-gradient(
+    0deg,
+    rgba(33, 33, 33, 1) 0%,
+    rgba(29, 26, 26, 0.2413340336134454) 76%
+  );
 }
