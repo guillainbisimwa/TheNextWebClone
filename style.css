@@ -2,19 +2,47 @@ body {
   width: 100%;
   padding: 0;
   margin: 0;
+  background-color: #fcfcfc;
+  height: 150vh;
 }
 
 .navbar {
   background-color: #000;
 }
 
+.head {
+  position: sticky;
+  height: 7vh;
+  width: 100%;
+  padding-left: 13px;
+}
+
+.head_con2 {
+  background-color: #ffdd33;
+  padding: 3px 13px;
+  font-size: 13px;
+}
+
 .navbar span a {
   margin-right: 5px;
+}
+
+.head span a {
+  margin-right: 10px;
 }
 
 .navbar span a:hover {
   cursor: pointer;
   color: #fff;
+}
+
+.head span a:hover {
+  cursor: pointer;
+  color: black;
+}
+
+.fa-search:hover {
+  cursor: pointer;
 }
 
 .d-flex {
@@ -42,9 +70,26 @@ body {
 }
 
 .pad-10 {
-  padding: 10px;
+  padding: 6px 13px;
 }
 
 .no-decor {
   text-decoration: none;
+}
+
+.left_bor {
+  border-left: 1px solid gray;
+}
+
+.align_cent {
+  align-self: center;
+}
+
+.h_100 {
+  height: 100%;
+}
+
+.fa-search {
+  padding: 0px 15px;
+  font-size: 20px;
 }
