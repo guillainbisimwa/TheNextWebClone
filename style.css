@@ -54,6 +54,10 @@ header {
   display: flex;
 }
 
+.just_cent {
+  justify-content: center;
+}
+
 .space-btwn {
   justify-content: space-between;
 }
@@ -86,6 +90,10 @@ header {
   border-left: 1px solid gray;
 }
 
+.dis_non {
+  display: block;
+}
+
 .align_cent {
   align-self: center;
 }
@@ -94,7 +102,8 @@ header {
   height: 100%;
 }
 
-.fa-search {
+.fa-search,
+.fa-bars {
   padding: 0px 15px;
   font-size: 20px;
 }
@@ -103,7 +112,6 @@ header {
 
 .main-pic-container {
   margin: 5px;
-  /* height: 500px; */
   height: 75vh;
   max-height: 560px;
 }
@@ -183,5 +191,27 @@ header {
 }
 
 .lil_lar {
-  font-size: 40px;
+  font-size: 32px;
+}
+
+.h_90 {
+  height: 95%;
+}
+
+/* Media Queries */
+
+/* @media (max-width: 375px) {
+  
+} */
+
+/* @media only screen and (min-width: 375px) {
+  .dis_non {
+    display: block;
+  }
+} */
+
+@media only screen and (min-width: 1024px) {
+  .dis_non {
+    display: none;
+  }
 }
