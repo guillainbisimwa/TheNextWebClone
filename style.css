@@ -138,6 +138,7 @@ header {
 
 .logo {
   color: #fff;
+  width: 50%;
 }
 
 .marg-20 {
@@ -174,4 +175,13 @@ header {
     rgba(33, 33, 33, 1) 0%,
     rgba(29, 26, 26, 0.2413340336134454) 76%
   );
+}
+
+.larg_text {
+  font-size: 60px;
+  margin: 0;
+}
+
+.lil_lar {
+  font-size: 40px;
 }
