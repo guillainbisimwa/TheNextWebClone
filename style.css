@@ -80,10 +80,6 @@ header {
   cursor: pointer;
 }
 
-.fa-bars {
-  color: #f42;
-}
-
 .d-flex {
   display: flex;
 }
@@ -280,11 +276,22 @@ h2 {
   margin: 20px 10px;
 }
 
+.latest_news,
+.latest-funding {
+  padding: 0 10px;
+}
+
 .latest_news h1 {
+  margin-bottom: 20px;
+}
+
+.primary-color {
   color: #f42;
+}
+
+.titles {
   font-weight: bolder;
   font-family: Arial, Helvetica, sans-serif;
-  margin-bottom: 20px;
 }
 
 .d_grid {
@@ -293,6 +300,10 @@ h2 {
   grid-template-columns: 1fr;
   row-gap: 20px;
   column-gap: 20px;
+}
+
+.row_gap {
+  row-gap: 10px;
 }
 
 .images {
@@ -318,6 +329,19 @@ h2 {
 .backg4 {
   background: url("images/grid4.jpg") center no-repeat;
   background-size: cover;
+}
+
+.latest-funding a:hover {
+  color: #000;
+}
+
+.marg-l-5 {
+  margin-left: 5px;
+}
+
+.funding-links,
+.funding-container {
+  flex-direction: column;
 }
 
 /* Media Queries */
@@ -396,6 +420,15 @@ h2 {
   .bolder {
     margin-top: 10px;
   }
+
+  .funding-links {
+    flex-direction: row;
+  }
+
+  .funding-links .link::before,
+  .funding-links .link::after {
+    content: " | ";
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -425,8 +458,19 @@ h2 {
     grid-template-columns: repeat(4, 1fr);
   }
 
-  .latest_news {
+  .latest_news,
+  .latest-funding {
     width: 90%;
     margin: 30px auto;
+  }
+
+  .funding-links {
+    flex-direction: row-reverse;
+  }
+
+  .funding-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
   }
 }
