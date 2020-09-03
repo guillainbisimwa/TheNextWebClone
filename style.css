@@ -7,7 +7,7 @@ body {
 }
 
 .top-logo {
-  display: none;
+  display: flex;
   background: rgb(211, 9, 137);
   background: linear-gradient(
     130deg,
@@ -45,8 +45,9 @@ header {
 
 .head_con2 {
   background-color: #ffdd33;
-  padding: 3px 13px;
-  font-size: 13px;
+  padding: 20px;
+  font-size: 15px;
+  text-align: center;
 }
 
 .navbar span a {
@@ -55,6 +56,7 @@ header {
 
 .head span a {
   margin-right: 10px;
+  font-size: 15px;
 }
 
 .navbar span a:hover,
@@ -66,6 +68,11 @@ header {
 .head span a:hover {
   cursor: pointer;
   color: black;
+}
+
+.second-nav,
+.first-nav {
+  display: none;
 }
 
 .fa-search:hover,
@@ -87,6 +94,10 @@ header {
 
 .space-btwn {
   justify-content: space-between;
+}
+
+.just-nav {
+  justify-content: flex-end;
 }
 
 .flex-end {
@@ -121,9 +132,9 @@ header {
   display: flex;
 }
 
-/* .dis_flex {
+.dis_flex {
   display: none;
-} */
+}
 
 .test {
   margin: auto 0;
@@ -239,9 +250,35 @@ header {
   
 } */
 
-@media only screen and (min-width: 769px) {
+@media only screen and (min-width: 768px) {
   .dis_non {
     display: none;
+  }
+
+  .top-logo {
+    display: flex;
+  }
+
+  .top-nav {
+    width: 90%;
+  }
+
+  .navbar {
+    display: flex;
+  }
+
+  .second-nav,
+  .first-nav {
+    display: flex;
+  }
+
+  .just-nav {
+    justify-content: space-between;
+  }
+
+  .head_con2 {
+    padding: 3px 13px;
+    text-align: left;
   }
 }
 
@@ -249,7 +286,17 @@ header {
   .top-logo {
     display: none;
   }
+
   .top-nav {
     width: 100%;
+  }
+
+  .navbar {
+    display: flex;
+  }
+
+  .second-nav,
+  .first-nav {
+    display: flex;
   }
 }
