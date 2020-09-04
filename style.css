@@ -207,6 +207,10 @@ header {
   margin: 20px;
 }
 
+.mar-top-35 {
+  margin-top: 30px;
+}
+
 .distract {
   margin-top: 15%;
 }
@@ -366,6 +370,31 @@ h2 {
   background-size: cover;
 }
 
+.backga {
+  background: url("images/grid3a.PNG") center no-repeat;
+  background-size: cover;
+}
+
+.backgb {
+  background: url("images/grid3b.PNG") center no-repeat;
+  background-size: cover;
+}
+
+.grids a.color_b:hover {
+  color: #f42;
+  cursor: pointer;
+}
+
+.backgc {
+  background: url("images/grid3c.PNG") center no-repeat;
+  background-size: cover;
+}
+
+.backgd {
+  background: url("images/grid3d.PNG") center no-repeat;
+  background-size: cover;
+}
+
 .backg2 {
   background: url("images/grid2.png") center no-repeat;
   background-size: cover;
@@ -431,6 +460,10 @@ h2 {
 
 .most-popular-grid {
   grid-template-columns: 1fr;
+}
+
+.dec {
+  text-decoration-line: line-through;
 }
 
 .display_grid {
@@ -553,9 +586,14 @@ ul {
     grid-template-columns: repeat(3, 1fr);
   }
 
+  h1.primary-color:hover {
+    color: black;
+    cursor: pointer;
+  }
+
   .images {
     width: auto;
-    height: 100px;
+    height: 150px;
   }
 
   .funding-links {
