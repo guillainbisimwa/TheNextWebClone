@@ -285,7 +285,8 @@ h2 {
 }
 
 .latest_news,
-.latest-funding {
+.latest-funding,
+.most-popular {
   padding: 0 10px;
 }
 
@@ -304,7 +305,6 @@ h2 {
 
 .d_grid {
   max-width: 100%;
-  display: grid;
   grid-template-columns: 1fr;
   row-gap: 20px;
   column-gap: 20px;
@@ -334,15 +334,6 @@ h2 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   top: 14%;
 }
-
-/* .pos3 {
-  left: 76%;
-} */
-
-/* .pos2 {
-  left: 2%;
-  bottom: 27px;
-} */
 
 .imag {
   width: 30px;
@@ -438,6 +429,59 @@ h2 {
   color: black;
 }
 
+.most-popular-grid {
+  grid-template-columns: 1fr;
+}
+
+.display_grid {
+  display: grid;
+}
+
+.most_popular_content {
+  width: 100%;
+  height: 300px;
+  float: none;
+  background-image: url("images/b-coin.PNG");
+  background-size: cover;
+  background-position: center top;
+  margin-top: 1%;
+}
+
+.left_popular_img {
+  background-image: url("images/pakistan-flag.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 96px;
+  min-width: 96px;
+}
+
+.marg_top_3 {
+  margin-top: 3px;
+}
+
+ul {
+  color: #f42;
+  padding-inline-start: 20px;
+}
+
+.most-popular-links ul li {
+  padding: 10px 0;
+  border-bottom: 1px solid rgb(212, 209, 209);
+  /* list-style: none; */
+}
+
+.most-popular-links ul li a:hover {
+  color: #000;
+}
+
+.most_popular-container div.bot_d {
+  max-height: 150px;
+}
+
+.most_popular-container p.primary-color {
+  padding: 0 10px;
+}
+
 /* Media Queries */
 
 /* @media (max-width: 375px) {
@@ -506,7 +550,6 @@ h2 {
   }
 
   .d_grid {
-    display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
 
@@ -522,6 +565,10 @@ h2 {
   .funding-links .link::before,
   .funding-links .link::after {
     content: " | ";
+  }
+
+  .most-popular-grid {
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -548,12 +595,12 @@ h2 {
   }
 
   .d_grid {
-    display: grid;
     grid-template-columns: repeat(4, 1fr);
   }
 
   .latest_news,
-  .latest-funding {
+  .latest-funding,
+  .most-popular {
     width: 90%;
     margin: 30px auto;
   }
@@ -566,5 +613,9 @@ h2 {
     flex-direction: row;
     justify-content: space-between;
     align-content: center;
+  }
+
+  .most-popular-grid {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
