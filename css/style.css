@@ -8,12 +8,7 @@ body {
 .top-logo {
   display: flex;
   background: rgb(211, 9, 137);
-  background: 
-  linear-gradient(
-    130deg,
-    rgba(211, 9, 137, 1) 0%,
-    rgba(255, 68, 34, 1) 77%
-  );
+  background: linear-gradient(130deg, rgba(211, 9, 137, 1) 0%, rgba(255, 68, 34, 1) 77%);
   width: 10%;
 }
 
@@ -59,7 +54,6 @@ header {
   font-size: 15px;
 }
 
-
 .latest-funding a:hover {
   color: #000;
 }
@@ -82,7 +76,7 @@ header {
 
 .fa-search,
 .fa-bars {
-  padding: 0px 15px;
+  padding: 0 15px;
   font-size: 20px;
 }
 
@@ -246,12 +240,7 @@ header {
 .gradient-bg {
   height: 100%;
   background: rgb(254, 66, 14);
-  background: 
-  linear-gradient(
-    -185deg,
-    rgba(254, 66, 14, 0.9293912394662921) 0%,
-    rgba(29, 26, 26, 0.6681552844101124) 80%
-  );
+  background: linear-gradient(-185deg, rgba(254, 66, 14, 0.9293912394662921) 0%, rgba(29, 26, 26, 0.6681552844101124) 80%);
 }
 
 .pad-20 {
@@ -265,12 +254,7 @@ header {
 .fb-bg {
   height: 100%;
   background: rgb(33, 33, 33);
-  background: 
-  linear-gradient(
-    0deg,
-    rgba(33, 33, 33, 1) 0%,
-    rgba(29, 26, 26, 0.2413340336134454) 76%
-  );
+  background: linear-gradient(0deg, rgba(33, 33, 33, 1) 0%, rgba(29, 26, 26, 0.2413340336134454) 76%);
 }
 
 .larg_text {
