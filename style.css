@@ -88,6 +88,18 @@ header {
   justify-content: center;
 }
 
+.fot-col {
+  background-color: #333333;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #333333;
+}
+
+.fot-col:hover {
+  background-color: black;
+}
+
 .space-btwn {
   justify-content: space-between;
 }
@@ -120,6 +132,14 @@ header {
   text-decoration: none;
 }
 
+.fot_hov {
+  font-size: 12px;
+}
+
+.fot_hov a:hover {
+  color: white;
+}
+
 .left_bor {
   border-left: 1px solid gray;
 }
@@ -134,6 +154,11 @@ header {
 
 .test {
   margin: auto 0;
+}
+
+.sml_logo {
+  width: 37px;
+  margin-right: 5px;
 }
 
 .mar_l_r_auto {
@@ -264,6 +289,10 @@ header {
 
 .marg_top {
   margin-top: auto;
+}
+
+.marg_top_25 {
+  margin-top: 30px;
 }
 
 .marg_top_15 {
@@ -515,11 +544,16 @@ ul {
   padding: 0 10px;
 }
 
-/* Media Queries */
+.fot1 {
+  background-color: #131313;
+  padding: 45px 0;
+}
 
-/* @media (max-width: 375px) {
-  
-} */
+.fot2 {
+  background-color: #000000;
+  padding: 36px 0;
+  font-size: 13px;
+}
 
 @media only screen and (min-width: 768px) {
   .dis_non {
