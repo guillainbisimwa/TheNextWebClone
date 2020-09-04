@@ -8,7 +8,8 @@ body {
 .top-logo {
   display: flex;
   background: rgb(211, 9, 137);
-  background: linear-gradient(
+  background: 
+  linear-gradient(
     130deg,
     rgba(211, 9, 137, 1) 0%,
     rgba(255, 68, 34, 1) 77%
@@ -43,7 +44,7 @@ header {
 }
 
 .head_con2 {
-  background-color: #ffdd33;
+  background-color: #fd3;
   padding: 20px;
   font-size: 15px;
   text-align: center;
@@ -56,6 +57,11 @@ header {
 .head span a {
   margin-right: 10px;
   font-size: 15px;
+}
+
+
+.latest-funding a:hover {
+  color: #000;
 }
 
 .navbar span a:hover,
@@ -74,6 +80,12 @@ header {
   display: none;
 }
 
+.fa-search,
+.fa-bars {
+  padding: 0px 15px;
+  font-size: 20px;
+}
+
 .fa-search:hover,
 .fa-bars:hover {
   cursor: pointer;
@@ -88,11 +100,11 @@ header {
 }
 
 .fot-col {
-  background-color: #333333;
+  background-color: #333;
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  border: 2px solid #333333;
+  border: 2px solid #333;
 }
 
 .fot-col:hover {
@@ -135,7 +147,7 @@ header {
   font-size: 12px;
 }
 
-.fot_hov a:hover {
+.fot_hov_l:hover {
   color: white;
 }
 
@@ -170,12 +182,6 @@ header {
 
 .h_100 {
   height: 100%;
-}
-
-.fa-search,
-.fa-bars {
-  padding: 0px 15px;
-  font-size: 20px;
 }
 
 .main-pic-container {
@@ -240,7 +246,8 @@ header {
 .gradient-bg {
   height: 100%;
   background: rgb(254, 66, 14);
-  background: linear-gradient(
+  background: 
+  linear-gradient(
     -185deg,
     rgba(254, 66, 14, 0.9293912394662921) 0%,
     rgba(29, 26, 26, 0.6681552844101124) 80%
@@ -258,7 +265,8 @@ header {
 .fb-bg {
   height: 100%;
   background: rgb(33, 33, 33);
-  background: linear-gradient(
+  background: 
+  linear-gradient(
     0deg,
     rgba(33, 33, 33, 1) 0%,
     rgba(29, 26, 26, 0.2413340336134454) 76%
@@ -429,10 +437,6 @@ h2 {
   background: url("images/grid4.jpg") center no-repeat;
 }
 
-.latest-funding a:hover {
-  color: #000;
-}
-
 .marg-l-5 {
   margin-left: 5px;
 }
@@ -467,10 +471,6 @@ h2 {
   margin: 15px 0 0 0;
   height: 1px;
   border: none;
-}
-
-.alin_cont_cent {
-  align-self: bottom;
 }
 
 .color_b {
@@ -585,7 +585,7 @@ ul {
 }
 
 .fot2 {
-  background-color: #000000;
+  background-color: #000;
   padding: 36px 0;
   font-size: 13px;
 }
