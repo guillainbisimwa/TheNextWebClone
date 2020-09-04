@@ -136,6 +136,10 @@ header {
   margin: auto 0;
 }
 
+.mar_l_r_auto {
+  margin: 0 auto;
+}
+
 .align_cent {
   align-self: center;
 }
@@ -317,7 +321,7 @@ h2 {
 }
 
 .bot_d {
-  background-color: #fffaf8;
+  background-color: #fff2ec;
 }
 
 .pos-rel {
@@ -403,12 +407,35 @@ h2 {
   width: 96%;
 }
 
+.mr {
+  margin: 20px 0 20px 2%;
+}
+
+.w_85 {
+  width: 85%;
+}
+
 .max_w {
   max-width: 60%;
 }
 
 .mar_auto {
   margin: 10px auto;
+}
+
+.hr1 {
+  background-color: pink;
+  margin: 15px 0 0 0;
+  height: 1px;
+  border: none;
+}
+
+.alin_cont_cent {
+  align-self: bottom;
+}
+
+.color_b {
+  color: black;
 }
 
 /* Media Queries */
