@@ -3,7 +3,6 @@ body {
   padding: 0;
   margin: 0;
   background-color: #fcfcfc;
-  /* height: 150vh; */
 }
 
 .top-logo {
@@ -152,7 +151,7 @@ header {
   display: none;
 }
 
-.test {
+.mar_u_b_auto {
   margin: auto 0;
 }
 
@@ -178,8 +177,6 @@ header {
   padding: 0px 15px;
   font-size: 20px;
 }
-
-/* Main section */
 
 .main-pic-container {
   margin: 5px;
@@ -392,21 +389,19 @@ h2 {
 .images {
   width: 75px;
   height: 75px;
+  background-size: cover;
 }
 
 .backg1 {
   background: url("images/grid1.jpg") center no-repeat;
-  background-size: cover;
 }
 
 .backga {
   background: url("images/grid3a.PNG") center no-repeat;
-  background-size: cover;
 }
 
 .backgb {
   background: url("images/grid3b.PNG") center no-repeat;
-  background-size: cover;
 }
 
 .grids a.color_b:hover {
@@ -416,27 +411,22 @@ h2 {
 
 .backgc {
   background: url("images/grid3c.PNG") center no-repeat;
-  background-size: cover;
 }
 
 .backgd {
   background: url("images/grid3d.PNG") center no-repeat;
-  background-size: cover;
 }
 
 .backg2 {
   background: url("images/grid2.png") center no-repeat;
-  background-size: cover;
 }
 
 .backg3 {
   background: url("images/grid3.jpg") center no-repeat;
-  background-size: cover;
 }
 
 .backg4 {
   background: url("images/grid4.jpg") center no-repeat;
-  background-size: cover;
 }
 
 .latest-funding a:hover {
@@ -503,18 +493,64 @@ h2 {
   width: 100%;
   height: 300px;
   float: none;
-  background-image: url("images/b-coin.PNG");
   background-size: cover;
   background-position: center top;
   margin-top: 1%;
 }
 
-.left_popular_img {
-  background-image: url("images/pakistan-flag.jpg");
+.most_popular_img1 {
+  background-image: url("images/b-coin.PNG");
+}
+
+.most_popular_img2 {
+  background-image: url("images/twitter-796x417.png");
+}
+
+.most_popular_img3 {
+  background-image: url("images/3popular-post.PNG");
+}
+
+.most_popular_img4 {
+  background-image: url("images/4popular-post.PNG");
+}
+
+.most_popular_img5 {
+  background-image: url("images/5popular-post.PNG");
+}
+
+.most_popular_img6 {
+  background-image: url("images/6popular-post.PNG");
+}
+
+.most_popular_img7 {
+  background-image: url("images/7popular-post.PNG");
+}
+
+.most_popular_img8 {
+  background-image: url("images/8popular-post.PNG");
+}
+
+.most_popular_img9 {
+  background-image: url("images/9popular-post.PNG");
+}
+
+.right_popular_img {
   background-position: center;
   background-size: cover;
   height: 96px;
   min-width: 96px;
+}
+
+.right_popular_img1 {
+  background-image: url("images/twitter-796x417.png");
+}
+
+.right_popular_img2 {
+  background-image: url("images/pakistan-flag.jpg");
+}
+
+.right_popular_img3 {
+  background-image: url("images/gear.PNG");
 }
 
 .marg_top_3 {
@@ -529,7 +565,6 @@ ul {
 .most-popular-links ul li {
   padding: 10px 0;
   border-bottom: 1px solid rgb(212, 209, 209);
-  /* list-style: none; */
 }
 
 .most-popular-links ul li a:hover {
@@ -628,6 +663,7 @@ ul {
   .images {
     width: auto;
     height: 150px;
+    background-size: cover;
   }
 
   .funding-links {
@@ -661,9 +697,7 @@ ul {
   }
 
   .main-pic-container {
-    /* margin: 5px; */
     height: 75vh;
-    /* max-height: 560px; */
   }
 
   .d_grid {
