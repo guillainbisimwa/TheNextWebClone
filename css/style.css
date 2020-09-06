@@ -188,7 +188,7 @@ header {
   width: 100%;
   float: none;
   height: 33%;
-  background: url("images/Baby-Yoda.jpg") center no-repeat;
+  background: url("../images/Baby-Yoda.jpg") center no-repeat;
   background-size: cover;
   margin: 0.1%;
 }
@@ -210,13 +210,13 @@ header {
   width: 100%;
   height: 33%;
   float: none;
-  background-image: url("images/facebook-img.png");
+  background-image: url("../images/facebook-img.png");
   background-size: cover;
   margin-top: 1%;
 }
 
 .facebook {
-  background-image: url("images/facebook-img.png");
+  background-image: url("../images/facebook-img.png");
   background-size: cover;
 }
 
@@ -385,15 +385,15 @@ h2 {
 }
 
 .backg1 {
-  background: url("images/grid1.jpg") center no-repeat;
+  background: url("../images/grid1.jpg") center no-repeat;
 }
 
 .backga {
-  background: url("images/grid3a.PNG") center no-repeat;
+  background: url("../images/grid3a.PNG") center no-repeat;
 }
 
 .backgb {
-  background: url("images/grid3b.PNG") center no-repeat;
+  background: url("../images/grid3b.PNG") center no-repeat;
 }
 
 .grids a.color_b:hover {
@@ -402,23 +402,23 @@ h2 {
 }
 
 .backgc {
-  background: url("images/grid3c.PNG") center no-repeat;
+  background: url("../images/grid3c.PNG") center no-repeat;
 }
 
 .backgd {
-  background: url("images/grid3d.PNG") center no-repeat;
+  background: url("../images/grid3d.PNG") center no-repeat;
 }
 
 .backg2 {
-  background: url("images/grid2.png") center no-repeat;
+  background: url("../images/grid2.png") center no-repeat;
 }
 
 .backg3 {
-  background: url("images/grid3.jpg") center no-repeat;
+  background: url("../images/grid3.jpg") center no-repeat;
 }
 
 .backg4 {
-  background: url("images/grid4.jpg") center no-repeat;
+  background: url("../images/grid4.jpg") center no-repeat;
 }
 
 .marg-l-5 {
@@ -483,39 +483,39 @@ h2 {
 }
 
 .most_popular_img1 {
-  background-image: url("images/b-coin.PNG");
+  background-image: url("../images/b-coin.PNG");
 }
 
 .most_popular_img2 {
-  background-image: url("images/twitter-796x417.png");
+  background-image: url("../images/twitter-796x417.png");
 }
 
 .most_popular_img3 {
-  background-image: url("images/3popular-post.PNG");
+  background-image: url("../images/3popular-post.PNG");
 }
 
 .most_popular_img4 {
-  background-image: url("images/4popular-post.PNG");
+  background-image: url("../images/4popular-post.PNG");
 }
 
 .most_popular_img5 {
-  background-image: url("images/5popular-post.PNG");
+  background-image: url("../images/5popular-post.PNG");
 }
 
 .most_popular_img6 {
-  background-image: url("images/6popular-post.PNG");
+  background-image: url("../images/6popular-post.PNG");
 }
 
 .most_popular_img7 {
-  background-image: url("images/7popular-post.PNG");
+  background-image: url("../images/7popular-post.PNG");
 }
 
 .most_popular_img8 {
-  background-image: url("images/8popular-post.PNG");
+  background-image: url("../images/8popular-post.PNG");
 }
 
 .most_popular_img9 {
-  background-image: url("images/9popular-post.PNG");
+  background-image: url("../images/9popular-post.PNG");
 }
 
 .right_popular_img {
@@ -526,15 +526,15 @@ h2 {
 }
 
 .right_popular_img1 {
-  background-image: url("images/twitter-796x417.png");
+  background-image: url("../images/twitter-796x417.png");
 }
 
 .right_popular_img2 {
-  background-image: url("images/pakistan-flag.jpg");
+  background-image: url("../images/pakistan-flag.jpg");
 }
 
 .right_popular_img3 {
-  background-image: url("images/gear.PNG");
+  background-image: url("../images/gear.PNG");
 }
 
 .marg_top_3 {
@@ -572,6 +572,16 @@ ul {
   background-color: #000;
   padding: 36px 0;
   font-size: 13px;
+}
+
+.fot_dis {
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 540px) {
+  .fot_dis {
+    flex-direction: row;
+  }
 }
 
 @media only screen and (min-width: 768px) {
