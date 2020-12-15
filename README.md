@@ -34,7 +34,7 @@ The project is public.
 
 - Github: [@githubhandle](https://github.com/hamayun-cpu)
 - Twitter: [@twitterhandle](https://twitter.com/hamayun_waheed)
-- Linkedin: [linkedin](https://www.linkedin.com/in/hamayun-waheed-3527381b2/)
+- Linkedin: [linkedin](https://www.linkedin.com/in/hamayun-waheed/)
 
 ## 🤝 Contributing
 
