@@ -6,7 +6,7 @@
 
 https://thenextweb.com/
 
-![Alt text](https://github.com/guillainbisimwa/TheNextWebClone/blob/dev/images/screenshot.PNG?raw=true "Screenshot")
+![Alt text](https://github.com/guillainbisimwa/TheNextWebClone/blob/master/images/screenshot.PNG?raw=true "Screenshot")
 
 ## Built With
 
