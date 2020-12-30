@@ -16,7 +16,7 @@ https://thenextweb.com/
 
 ## Live Demo
 
-[Live Demo Link](https://guillainbisimwa.github.io/TheNextWebClone/)
+[Live Demo Link](https://rawcdn.githack.com/guillainbisimwa/TheNextWebClone/251f7d34ee296df3a6e6e39253e37c60a1620acd/index.html#)
 
 ## Getting Started
 
